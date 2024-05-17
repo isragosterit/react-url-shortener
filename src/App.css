@@ -1,0 +1,66 @@
+body{
+  background-color: #F6F5F2;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.app{
+  text-align: center;
+}
+
+h1{
+  color:#4a5164;
+}
+
+.url-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+input{
+  width: 55%;
+  height: 30px;
+  font-family: inherit;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  background-color: #0f172a;
+  color: #f1f1f1;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+button:hover{
+  background-color: #202b43;
+}
+
+.paste-button{
+ display: block;
+ margin-left: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ margin: 10px auto 0; 
+}
+
+.shorten-button{
+  margin-left: 10px;
+}
+
+.copy-button{
+  background-color: #5c6b8c;
+  margin-left: 10px;
+}
+.copy-button:hover{
+  background-color: #71809e;
+  margin-left: 10px;
+}
+.shortener{
+  margin: 15px;
+  color: #71809e;
+}
